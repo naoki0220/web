@@ -1,6 +1,6 @@
 body{
     font-size:25px;
-    background-color:blue;
+    background-color:skyblue;
 }
 
 .header
@@ -35,3 +35,11 @@ nav ul{
     line-height:1.0;
     background:repeat-x bottom;
 }
+
+nav li,nav a{
+    display:block;
+}
+
+nav li{
+    float:left;
+ }   
