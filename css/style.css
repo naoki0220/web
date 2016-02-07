@@ -1,6 +1,6 @@
 body{
     font-size:25px;
-    background-color:skyblue;
+    background-color:#7CCA8F;
 }
 
 .header
@@ -9,7 +9,7 @@ border-bottom: 3px solid #888;
 text-align:center ;   
 padding: lem 0 ;
 margin-bottom:2em;
-background:#e8e8e8 ;
+background:#e8e8e8 ;    
 .bxslider {
 $(document).ready(function(){
 $('.bxslider').bxSlider({
@@ -42,4 +42,19 @@ nav li,nav a{
 
 nav li{
     float:left;
- }   
+ }
+
+h2{
+    text-align: center;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    float:left;
+}
+
+iframe{
+    text-align: center;
+}

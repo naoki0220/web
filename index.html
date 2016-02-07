@@ -4,12 +4,17 @@
    <title>静岡サレジオC10FA</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="lib/jquery.bxslider.css" rel="stylesheet" />
-     <script type="text/javascript" src="code.jquery.com/jquery-1.11.1.min.js"></script>
-<link href="jquery.bxslider.css" rel="stylesheet"/>
-<script type="text/javascript" src="jquery.slides.min.js"></script>
+   <script type="text/javascript" src="js/jquery.slides.min.js"></script>
+
+
+    <script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+    </script>
 </head>
 <body>
     <div id="header">
@@ -25,45 +30,29 @@
 </div>
 <p>ようこそ！</p>
 <p>C10FA専用のサイトです。</p>
-<ul class="slider">
-  <li class="slide"><img src="img/mery.jpg" alt="image"></li>
-  <li class="slide"><img src="img/makaron.jpg" alt="image"></li>
-  <li class="slide"><img src="img/momo.jpg" alt="image"></li>
-</ul>
+<div class="bxslider">
+  <div class="slide"><img src="img/yjimage.jpg" alt="image"></div>
+  <div class="slide"><img src="img/yjimage.jpg" alt="image"></div>
+  <div class="slide"><img src="img/yjimage.jpg" alt="image"></div>
+</div>
+<h2>連絡事項</h2>
+<div id="boxes">
+<div class="box"><img src="img/yjimage.jpg"></div>
+<div class="box"><img src="img/yjimage.jpg"></div>
+<div class="box"><img src="img/yjimage.jpg"></div>
+<div class="box"><img src="img/yjimage.jpg"></div>
+</div>
+<h2>カレンダー</h2>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;hl=ja&amp;bgcolor=%23FFFFFF&amp;src=amfrbc6bc50kpgjheotdfu1te8%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=Asia%2FTokyo" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <p id="topbutton">
    <a href="#top" onclick="$('html,body').animate({ scrollTop: 0 }); return false;">▲TOPへ戻る</a>
 </p>  
 <div id="footer">
  <p>
-  <a href="index.html">ホーム</a> |
-  <a href="picture.html">アルバム</a> |
-  <a href="aaaa.html">aaaa</a> |
-  <a href="iiiii.html">iiiii</a> |
+  <a href="index.html">ホーム</a> 
+  <a href="picture.html">アルバム</a> 
+  <a href="aaaa.html">aaaa</a> 
+  <a href="iiiii.html">iiiii</a> 
  </p>
- <script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/jquery.bxslider.js"></script>
-<script>
-    $(function(){
-	$(".slider").slidesjs({ 
-         navigation: {
-      active: false, 
-      effect: "slide" 
-    },
-          pagination: {
-      active: false, 
-      effect: "slide" 
-    },
-        play: {
-          active: false, 
-          effect: "slide", 
-          interval: 1000, 
-          auto: true, 
-          swap: true, 
-          pauseOnHover: false, 
-          restartDelay: 2500 
-        }
-    });
-});
-</script>
 </body>
 </html>
