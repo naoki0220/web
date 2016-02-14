@@ -19,6 +19,7 @@ $('.bxslider').bxSlider({
 }
 }
 
+
 ul a{
     border: 1px solid #000;
     border-radius: 2px ;     
@@ -48,10 +49,10 @@ h2{
     text-align: center;
 }
 
-.box{
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
+.keiziban li a{
+    border:none;
+    fon-size:10px;
+    display:block;
     float:left;
 }
 
